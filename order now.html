@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Order Page</title>
+  <style>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("backround\ restro.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 24px;
+    background-color: #ff6347;
+   
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size:32px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+  }
+  
+  .menu, .order-form {
+    width: 45%;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu h2, .order-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .menu ul, .order-form ul {
+    list-style: none;
+  }
+  
+  .menu-item, .price {
+    display: inline-block;
+  }
+  
+  .price {
+    float: right;
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 0.5em;
+    padding: 8px 16px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff7f50;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 16px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 1em;
+    width: 100%;
+  }
+  footer {
+    background:  #ff6347;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+   
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FLAVOUR FUSION</h1>
+    <h2>(where different cuisines come together)</h2>
+    <h2 style="color: #333;">Order Your Meal</h2>
+  </header>
+
+  <main>
+    
+    <section class="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li>
+            <div class="menu-item">
+                <span><b>Home:</b></span>
+                <a href="restaurant.html"><button onclick="addtoorder">click here to view all items</button></a>
+            </div>
+        </li><br>
+        <li>
+          <div class="menu-item">
+            <span><b>Starters:</b></span>
+            <span class="price"></span>
+          </div>
+          <a href="starters veg and non veg.html"><button onclick="addToOrder('Pizza', 12)">Click here to add items</button>
+        </div></button></a>
+        </li><br>
+        <li>
+          <div class="menu-item">
+            <span><b>Main course:</b></span>
+            <span class="price"></span>
+          </div>
+         <a href="main course veg and non veg .html"><button onclick="addToOrder('Pasta', 10)">Click here to add items</button>
+        </div></button></a>
+        </li><br>
+        <li>
+          <div class="menu-item">
+            <span><b>Soft drinks and shakes:</b></span>
+            <span class="price"></span>
+          </div>
+          <a href="soft drinks.html"><button onclick="addToOrder('Salad', 8)">Click here to add items</button>
+        </div></button></a>
+        </li><br>
+        <li>
+            <div class="menu-item">
+                <span><b>Deserts:</b></span>
+               <a href="deserts.html"> <button onclick="addToOrder">Click here to add items</button>
+            </div></a>
+        </li><br>
+      </ul>
+    </section>
+
+    
+    <section class="order-form">
+      <h2>Your Order</h2>
+      <ul id="orderList"></ul>
+      <div>Total: $<span id="totalPrice">0</span></div>
+      
+      <h3>Customer Details</h3>
+      <form id="customerForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <button type="submit">Submit Order</button>
+       
+    </section>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Contact Us: info@restaurantonline.com</p>
+</footer>
+
+ 
+</body>
+</html>

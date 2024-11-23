@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starters VEG AND NON VEG</title>
+    <link rel="stylesheet" href="restaurant.css"
+</head> 
+<body>
+    <header>
+        <h1>STARTERS</h1>
+        <nav>
+            <ul>
+                <li><a href="restaurant.html">Home</a></li>
+                <li><a href="main course veg and non veg .html">Main course</a></li>
+                <li><a href="soft drinks.html">Soft drinks and shakes </a></li>
+                <li><a href="Deserts">Deserts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+<section class="content">
+        <h2 style="color:white">Enjoy with your favourite food</h2>
+    <div class="divfull">
+        <div class="alldiv">
+            <h1 STYLE="background-color: teal;">veg</h1>
+            <a href="starters veg .html">
+            <img src="paneer tikka.jpg"  height="220" width="auto"></a>
+            
+        </div>
+        <div class="alldiv">
+            <h1 STYLE="background-color: teal;">NON VEG</h1>
+            <a href="starters nonveg.html">
+            <img src="NON VEG STARTER PIC.avif" height="220" width="auto">
+            </a>
+        </div></div></section>
+        <footer>
+            <p>Contact Us: info@restaurantonline.com</p>
+        </footer>
+    </body>
+    </html>
+
+</body>
+</html>

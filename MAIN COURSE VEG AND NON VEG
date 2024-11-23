@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAINCOURSE VEG AND NON VEG</title>
+    <link rel="stylesheet" href="restaurant.css"
+</head> 
+<body>
+    <header>
+        <h1>MAIN COURSE</h1>
+        <nav>
+            <ul>
+                <li><a href="restaurant.html">Home</a></li>
+                <li><a href="MAIN COURSE VEG AND NON VEG">Main course</a></li>
+                <li><a href="soft drinks.html">Soft drinks and shakes </a></li>
+                <li><a href="Deserts">Deserts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+<section class="content">
+        <h2 style="color:white">Order and enjoy with your favourite food</h2>
+    <div class="divfull">
+        <div class="alldiv">
+            <h1 STYLE="background-color: teal;">veg</h1>
+            <a href="main course veg .html">
+            <img src="veg main course.jpeg"  height="220" width="auto"></a>
+            
+        </div>
+        <div class="alldiv">
+            <h1 STYLE="background-color: teal;">NON VEG</h1>
+            <a href="main course nonveg .html">
+            <img src="non veg thali.jpg" height="220" width="auto">
+            </a>
+        </div></div></section>
+        <footer>
+            <p>Contact Us: info@restaurantonline.com</p>
+        </footer>
+    </body>
+    </html>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
